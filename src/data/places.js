@@ -13,7 +13,8 @@ export const PLACES = [
     rating: 5,
     phone: "020 000 001",
     workingHours: "Cijeli dan (vanjski lokalitet)",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+    image:
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
   },
   {
     id: 2,
@@ -28,7 +29,8 @@ export const PLACES = [
     rating: 5,
     phone: "020 000 002",
     workingHours: "08:00 – 18:00",
-    image: "https://images.unsplash.com/photo-1548013146-72479768bada?w=600&q=80",
+    image:
+      "https://images.unsplash.com/photo-1548013146-72479768bada?w=600&q=80",
   },
   {
     id: 3,
@@ -43,7 +45,8 @@ export const PLACES = [
     rating: 4,
     phone: "020 000 003",
     workingHours: "07:00 – 21:00",
-    image: "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?w=600&q=80",
+    image:
+      "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?w=600&q=80",
   },
   {
     id: 4,
@@ -58,7 +61,8 @@ export const PLACES = [
     rating: 5,
     phone: "020 000 004",
     workingHours: "09:00 – 17:00",
-    image: "https://images.unsplash.com/photo-1519817650390-64a993f9e5e0?w=600&q=80",
+    image:
+      "https://images.unsplash.com/photo-1519817650390-64a993f9e5e0?w=600&q=80",
   },
 
   // --- RESTORANI ---
@@ -75,7 +79,8 @@ export const PLACES = [
     rating: 4,
     phone: "020 311 111",
     workingHours: "10:00 – 23:00",
-    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&q=80",
+    image:
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&q=80",
   },
   {
     id: 6,
@@ -90,7 +95,8 @@ export const PLACES = [
     rating: 5,
     phone: "020 322 222",
     workingHours: "07:00 – 22:00",
-    image: "https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=600&q=80",
+    image:
+      "https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=600&q=80",
   },
   {
     id: 7,
@@ -105,7 +111,8 @@ export const PLACES = [
     rating: 3,
     phone: "020 333 333",
     workingHours: "11:00 – 23:00",
-    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80",
+    image:
+      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80",
   },
 
   // --- KAFIĆI ---
@@ -122,7 +129,8 @@ export const PLACES = [
     rating: 4,
     phone: "020 444 444",
     workingHours: "07:00 – 22:00",
-    image: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=600&q=80",
+    image:
+      "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=600&q=80",
   },
   {
     id: 9,
@@ -137,7 +145,8 @@ export const PLACES = [
     rating: 4,
     phone: "020 455 455",
     workingHours: "08:00 – 23:00",
-    image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&q=80",
+    image:
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&q=80",
   },
 
   // --- PARKING ---
@@ -154,7 +163,8 @@ export const PLACES = [
     rating: 4,
     phone: "020 566 566",
     workingHours: "0 – 24h",
-    image: "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=600&q=80",
+    image:
+      "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=600&q=80",
   },
   {
     id: 11,
@@ -169,7 +179,8 @@ export const PLACES = [
     rating: 3,
     phone: "020 577 577",
     workingHours: "08:00 – 21:00",
-    image: "https://images.unsplash.com/photo-1573348722427-f1d6819fdf98?w=600&q=80",
+    image:
+      "https://images.unsplash.com/photo-1573348722427-f1d6819fdf98?w=600&q=80",
   },
 
   // --- TRANSPORT ---
@@ -186,7 +197,8 @@ export const PLACES = [
     rating: 3,
     phone: "020 688 688",
     workingHours: "05:00 – 22:00",
-    image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=600&q=80",
+    image:
+      "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=600&q=80",
   },
   {
     id: 13,
@@ -201,7 +213,8 @@ export const PLACES = [
     rating: 4,
     phone: "020 111 111",
     workingHours: "0 – 24h",
-    image: "https://images.unsplash.com/photo-1511527844068-006b95d162c2?w=600&q=80",
+    image:
+      "https://images.unsplash.com/photo-1511527844068-006b95d162c2?w=600&q=80",
   },
 
   // --- ZDRAVLJE ---
@@ -210,15 +223,15 @@ export const PLACES = [
     name: "Dom zdravlja",
     category: "zdravlje",
     emoji: "🏥",
-    description:
-      "Glavni zdravstveni centar. Hitna pomoć dostupna 0-24h.",
+    description: "Glavni zdravstveni centar. Hitna pomoć dostupna 0-24h.",
     longDescription:
       "Dom zdravlja Novi Pazar je referentna zdravstvena ustanova za cijeli okrug. Pored hitne pomoći koja radi non-stop, u domu zdravlja rade opšti ljekari, pedijatri, stomatolog i specijalisti. Preporučuje se naručivanje unaprijed za specijalističke preglede.",
     address: "Ul. Dr Zuhdije Umiherića 1",
     rating: 4,
     phone: "020 799 799",
     workingHours: "Hitna: 0–24h | Ljekari: 07:00–19:00",
-    image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&q=80",
+    image:
+      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&q=80",
   },
   {
     id: 15,
@@ -233,7 +246,8 @@ export const PLACES = [
     rating: 4,
     phone: "020 810 810",
     workingHours: "Pon–Pet: 08:00–20:00 | Sub: 08:00–15:00",
-    image: "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=600&q=80",
+    image:
+      "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=600&q=80",
   },
 
   // --- HOTELI ---
@@ -250,7 +264,8 @@ export const PLACES = [
     rating: 4,
     phone: "020 921 921",
     workingHours: "Recepcija: 0 – 24h",
-    image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&q=80",
+    image:
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&q=80",
   },
   {
     id: 17,
@@ -265,6 +280,22 @@ export const PLACES = [
     rating: 5,
     phone: "020 932 932",
     workingHours: "Recepcija: 0 – 24h",
-    image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600&q=80",
+    image:
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600&q=80",
+  },
+  {
+    id: 18,
+    name: "Vrbak",
+    category: "restorani",
+    emoji: "🥘",
+    description: "Vrbak",
+    longDescription:
+      "Kafana Bošnjak već decenijama služi najukusnije ćevape u Novom Pazaru. Ćevapi se prave od mješavine goveđeg i jagnjećeg mesa po tajnoj recepturi. Uz ćevape obavezno naruči domaći hljeb i kajmak. Burek s mesom i sirom peče se svako jutro.",
+    address: "Ul. Stevana Nemanje 12",
+    rating: 4.8,
+    phone: "020 322 222",
+    workingHours: "07:00 – 22:00",
+    image:
+      "https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=600&q=80",
   },
 ];
