@@ -1,0 +1,26 @@
+.place__grid {
+    gap: 20px;
+}
+
+.place {
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.place__name {
+    color: red;
+    border: 1px solid black;
+    width: 75%;
+}
+
+.place__short__description {
+    font-style: italic;
+    font-weight: 1000;
+    color: turquoise;
+}
+
+img {
+}
