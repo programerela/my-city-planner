@@ -2,7 +2,7 @@ import { useState } from "react";
 import { PLACES } from "../data/places";
 import Sidebar from "../components/Sidebar";
 // import SearchBar from "../components/SearchBar";
-// import PlaceGrid from "../components/PlaceGrid";
+import PlaceGrid from "../components/PlaceGrid";
 // import PlaceModal from "../components/PlaceModal";
 import "../styles/homepage.css";
 
@@ -24,7 +24,6 @@ export default function HomePage() {
 
   return (
     <div className="home-page">
-
       {/* Hero banner */}
       <div className="home-page__hero">
         <div className="home-page__hero-icon">🗺️</div>
@@ -36,7 +35,6 @@ export default function HomePage() {
 
       {/* Wrapper za search + glavni layout */}
       <div className="home-page__outer">
-
         {/* Search bar — izdiže se iz heroa */}
         <div className="home-page__search">
           {/* <SearchBar value={searchText} onChange={setSearchText} /> */}
@@ -44,9 +42,11 @@ export default function HomePage() {
 
         {/* Dvostupčani layout: sidebar + grid */}
         <div className="home-page__layout">
-
           {/* Lijeva kolona: sidebar s kategorijama */}
-          <Sidebar activeCategory={activeCategory} onSelect={setActiveCategory} />
+          <Sidebar
+            activeCategory={activeCategory}
+            onSelect={setActiveCategory}
+          />
 
           {/* Desna kolona: rezultati */}
           <div className="home-page__main">
@@ -56,9 +56,8 @@ export default function HomePage() {
               </p>
             </div>
 
-            {/* <PlaceGrid places={filteredPlaces} onSelect={setSelectedPlace} /> */}
+            <PlaceGrid places={filteredPlaces} />
           </div>
-
         </div>
       </div>
 
